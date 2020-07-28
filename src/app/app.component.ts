@@ -11,7 +11,7 @@ export class AppComponent {
 
   showComplete: boolean = false;
 
-  private list = new TodoList("Bob", [
+  private list = new TodoList("David", [
     new TodoItem("Go for run", true),
     new TodoItem("Get flowers"),
     new TodoItem("Collect tickets"),
